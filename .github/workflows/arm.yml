@@ -50,7 +50,7 @@ jobs:
               ubuntu*|jessie|stretch|buster|bullseye)
                 apt-get update -q -y
                 apt-get upgrade -y
-                apt-get install -q -y curl gnupg wget libssl1.0-dev
+                apt-get install -q -y curl gnupg wget libssl1.0-dev nodejs
                 ;;
             esac
 
