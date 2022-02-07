@@ -11,7 +11,7 @@ body:
         Thank you for taking the time to request an app!
   - type: input
     attributes:
-      label: **App or Game Name**
+      label: '**App or Game Name**'
       description: What is the app's Name?
       placeholder: potato
     validations:
