@@ -19,5 +19,7 @@ jobs:
       with:
         template-path: .github/ISSUE_TEMPLATE/bug_report.yml
         
-    - run: echo '${{ steps.issue-parser.outputs.jsonString }}    
+    - run: echo '${{ steps.issue-parser.outputs.jsonString }}'
+    
+    - run: echo ${{ steps.issue-parser.outputs.what_browsers_are_you_seeing_the_problem_on }}
         
