@@ -24,7 +24,6 @@ jobs:
     - run: echo ${{ steps.issue-parser.outputs.issueparser_what_browser_are_you_seeing_the_problem_on }}
     
     - uses: actions-ecosystem/action-add-labels@v1
-      if: ${{ startsWith(github.event.comment.body, '/add-labels') }}
       with:
         labels: ${{ steps.issue-parser.outputs.issueparser_what_browser_are_you_seeing_the_problem_on }}
         
