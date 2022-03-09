@@ -21,5 +21,5 @@ jobs:
         
     - run: echo '${{ steps.issue-parser.outputs.jsonString }}'
     
-    - run: echo ${{ steps.issue-parser.outputs.what_browsers_are_you_seeing_the_problem_on }}
+    - run: echo ${{ steps.issue-parser.outputs.issueparser_what_browsers_are_you_seeing_the_problem_on }}
         
