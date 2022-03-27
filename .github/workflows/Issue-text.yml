@@ -37,7 +37,7 @@ jobs:
       with:
         name: "new-json-file.json"
         json: |
-           {
+          "{
             "name": "Super Smash Aeugh Web",
             "icon": "https://cdn.discordapp.com/attachments/880568849085374504/945988898406953000/pufferfish.png",
             "type": "app",
@@ -54,7 +54,7 @@ jobs:
             },
             "url": "https://melonicoverlord.github.io/aeughweb/",
             "Type": "game"
-          }
+           }"
           
     - name: cpr
       uses: peter-evans/create-pull-request@v3
