@@ -37,7 +37,6 @@ jobs:
         
     - name: cpr
       uses: peter-evans/create-pull-request@v3
-      if: ${{ env.FRAME == 'false' }}
       with:
         token: ${{ secrets.BOT }}
         commit-message: Add ${{ steps.issue-parser.outputs.issueparser_what_browser_are_you_seeing_the_problem_on }}
