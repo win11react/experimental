@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+        
     - uses: ben-z/actions-comment-on-issue@1.0.2
       with:
         message: "Hey, thank you for creating an issue. We will normally respond within 24 hours."
